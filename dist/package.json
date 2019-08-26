@@ -40,10 +40,12 @@
     "typescript": "2.6.x",
     "zone.js": "^0.8.20"
   },
-  "ngPackage": {
-    "lib": {
-      "entryFile": "time-ago.pipe.ts"
-    }
+  "dependencies": {
+    "tslib": "^1.7.1"
   },
-  "dependencies": {}
+  "main": "bundles/time-ago-pipe.umd.js",
+  "module": "esm5/time-ago-pipe.js",
+  "es2015": "esm2015/time-ago-pipe.js",
+  "typings": "time-ago-pipe.d.ts",
+  "metadata": "time-ago-pipe.metadata.json"
 }
